@@ -1,0 +1,30 @@
+      yum list | grep jdk
+      yum -y install java-1.8.0-openjdk-devel.x86_64
+      ls
+      wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69.tar.gz
+      yum -y install wget
+      wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.69/bin/apache-tomcat-9.0.69.tar.gz
+      ls
+      tar -xvf apache-tomcat-9.0.69.tar.gz
+      ls
+      cd apache-tomcat-9.0.69/
+      ls
+      chmod 777 webapps/
+      cd webapps/manager/META-INF/
+      ls
+      vi context.xml
+      ls
+      cd apache-tomcat-9.0.69/
+      cd webapps/manager/META-INF/
+      ls
+      vi context.xml
+      cd ../../..
+      ls
+      cd conf/
+      ls
+      vi tomcat-users.xml
+      cd ..
+      ls
+      cd bin
+      ls
+      ./startup.sh
